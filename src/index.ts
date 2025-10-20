@@ -17,7 +17,7 @@ btn.addEventListener("click", () => {
     if (lenWarning.classList.contains("length-warning")) {
             lenWarning.innerHTML = "";
             lenWarning.classList.remove("length-warning");
-            lenWarning.classList.add("hiddenLengthWarning");
+            lenWarning.classList.add("hidden-length-warning");
     }
     let length = parseInt(passLen.value, 10);
 
